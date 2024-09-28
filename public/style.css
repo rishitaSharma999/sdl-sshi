@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#upload-form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+#file-input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#upload-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-btn:hover {
+    background-color: #3e8e41;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#extracted-text, #frequencies {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
